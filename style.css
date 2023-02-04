@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+  }
+body {
+  font-family: 'Varela', sans-serif;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+    
+}
+.navmenu li a{
+    text-decoration: none;
+    color: #802709;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+.navmenu li{
+    list-style: none;
+}
+.navmenu li a:hover {
+    color: #e728a8;
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #e728a8;
+    font-size: 23px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.nav-icon i:hover {
+    transform: scale(1.1) ;
+}
+#menu-icon {
+    font-size: 30px;
+    color: #802709;
+    padding-bottom: 8px;
+    z-index: 10001;
+    cursor: pointer;
+}
