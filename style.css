@@ -113,5 +113,33 @@ section {
     border: 2px solid #f28af1;
     padding: 12px 25px;
     transition: all .42s ease;
-    border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.main-btn:hover {
+    color: #fff;
+    background-color: #e728a8;
+    border-color: #fff;
+}
+.main-btn i{
+    vertical-align: middle;
+}
+.down-arrow {
+    position: absolute;
+    top: 85%;
+    right: 1%;
+}
+.down i{
+    font-size: 30px;
+    color: #802709;
+    border: 2px solid #802709;
+    opacity: 0.9;
+    border-radius: 50px;
+    padding: 12px 12px;
+}
+.down i:hover{
+    color: #fff;
+    background-color: #e728a8;
+    border-color: #fff;
+    transition: all .42s ease;
 }
